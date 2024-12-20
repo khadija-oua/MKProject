@@ -3,7 +3,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   height: 100vh;
-  background: url("https://i.imgur.com/HgflTDf.jpg") 50% fixed;
+  background: url("https://www.inpt.ac.ma/sites/default/files/ifra%202.png") 50% fixed;
   background-size: cover;
 }
 
@@ -92,7 +92,7 @@ body {
       }
       outline: none;
       color: #8db5da;
-      border-color: rgb(201, 158, 158);
+      border-color: rgb(3, 55, 201);
       border-left-width: 35px;
     }
     
@@ -179,12 +179,29 @@ footer {
   }
 }
 .titre {
-  height: 100px;
+ 
     font-family: 'Arial', sans-serif;
     font-size: 3rem; 
     font-weight: bold; 
     color: #54a9ff; 
     text-align: center; 
-    background-color: #f4f4f4;
+
+
+}
+header{
+  height: 100px;
+  width: 100%;
+  background-color: #f4f4f4;
   border-radius: 5%;
+  text-align: center; 
+  border-radius: 5%;
+  padding-top: 20px;
+}
+header img{
+  height:100px;
+  width: 170px;
+  position: relative;
+  bottom: 100%;
+display:flex;
+
 }
